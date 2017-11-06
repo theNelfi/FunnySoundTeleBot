@@ -1,0 +1,24 @@
+{
+  "name": "funnysoundtelebot",
+  "version": "1.0.0",
+  "description": "Funny sounds bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "deploy": "forever start index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "funny",
+    "sound",
+    "mem",
+    "bot",
+    "telegram"
+  ],
+  "author": "theNelfi",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "telegraf": "^3.14.0"
+  }
+}
